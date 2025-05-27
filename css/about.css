@@ -1,0 +1,46 @@
+.about-hero {
+    margin-top: calc(var(--index) * 3);
+    display: flex;
+    justify-content: center;
+}
+.about-hero .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.about-hero__text {
+    display: flex;
+    flex-direction: column;
+}
+.about-hero__text > *{
+    margin-top: calc(var(--index) * 1.5);
+    max-width: 450px;
+}
+
+.text-place {
+    display: flex;
+}
+.text-place h3 {
+    font-size: 13px;
+    line-height: 208%;
+}
+.text-place > * {
+    margin: calc(var(--index) * 0.3);
+}
+.text-place__about {
+    color: #E47500;
+}
+.about-hero__text-title {
+    font-size: 30px;
+    line-height: 180%;
+    font-weight: 700;
+}
+.about-hero__text-main {
+    font-size: 15px;
+    line-height: 208%;
+    opacity: 0.8;
+}
+.vector {
+    margin-left: 15px;
+}
