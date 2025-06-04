@@ -163,3 +163,48 @@ p {
     font-size: 16;
     line-height: 202%;
 }
+
+
+/* Work */
+
+
+.team {
+    display: flex;
+    justify-content: center;
+}
+.team .container {
+    width: 100%;
+    padding-bottom: calc(var(--index) * 3);
+}
+.team-title {
+    margin-top: calc(var(--index) * 4);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 180%;
+}
+.team-list {
+    margin-top: calc(var(--index) * 1.5);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.team-list__item {
+    background-color: #1C140F;
+    border-radius: 20px;
+    width: 295px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-item__name {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 202%;
+}
+.list-item__work {
+    font-weight: 300;
+    line-height: 202%;
+    color: #E8E8E8;
+}
