@@ -187,6 +187,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .team-list__item {
     background-color: #1C140F;
@@ -207,4 +208,43 @@ p {
     font-weight: 300;
     line-height: 202%;
     color: #E8E8E8;
+}
+
+
+
+/* Media */
+@media (max-width: 1270px) {
+    .about-hero .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-hero__img {
+        margin-top: calc(var(--index) * 3);
+        width: 60%;
+        min-width: 300px;
+    }
+}
+@media (max-width: 1170px) {
+    .witch .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .witch-text__little {
+        padding-top: 20px;
+    }
+    .witch-text__main {
+        padding-bottom: 20px;
+    }
+    .witch-text {
+        text-align: center;
+    }
+    .witch-text > * {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 450px) {
+    .work .container {
+        width: 90%;
+    }
 }
