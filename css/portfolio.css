@@ -249,3 +249,48 @@
     font-size: 14px;
     line-height: 187.5%;
 }
+@media (max-width: 1250px) {
+    .portfolio-spiderman .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 1160px) {
+    .perfomance {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .perfomance-item {
+        border: 0;
+    }
+    .info-1, .info-2 {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .info-2__text, .info-1__text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .reviews {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .reviews__item{
+        width: 320px;
+        height: auto;
+    }
+    .reviews__item-main{
+        padding-bottom: 10px;
+
+    }
+}
