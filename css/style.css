@@ -38,6 +38,64 @@ a {
 .header > * {
     z-index: 1;
 }
+.logo-register {
+    display: flex;
+    align-items: center;
+}
+.register {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.6s;
+    margin-left: 30px;
+}
+.register-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    background-color: #1E1E1E;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+    font-size: 13px;
+    transition: 0.6s;
+}
+.authorization-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    background-color: #FA9021;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    font-size: 13px;
+    transition: 0.6s;
+}
+.cabinet-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    background-color: #1E1E1E;
+    border-radius: 6px;
+
+    font-size: 13px;
+    transition: 0.6s;
+}
+.cabinet-button:hover {
+    opacity: 0.7;
+}
+.register-button:hover {
+    opacity: 0.7;
+}
+.authorization-button:hover {
+    opacity: 0.7;
+}
 img {
     max-width: 100%;
 }
