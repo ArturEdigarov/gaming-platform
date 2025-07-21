@@ -12,8 +12,8 @@
                 } else {
                     echo                 
                     '<div class="register">
-                        <a href="/register.php" class="register-button">Register</a>
-                        <a href="/authorization.php" class="authorization-button">Authorization</a>
+                        <a href="/gaming-platform/register.php" class="register-button">Register</a>
+                        <a href="/gaming-platform/authorization.php" class="authorization-button">Authorization</a>
                     </div>';
                 }
                 ?>

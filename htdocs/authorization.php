@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/contacts.css">
-    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/gaming-platform/css/style.css">
+    <link rel="stylesheet" href="/gaming-platform/css/contacts.css">
+    <link rel="stylesheet" href="/gaming-platform/css/register.css">
 </head>
 <body>
     <?php require_once 'blocks/header.php'; ?>
