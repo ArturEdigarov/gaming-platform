@@ -1,0 +1,19 @@
+.feedback {
+    margin-top: calc(var(--index) * 2);
+}
+.form-password{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-input {
+    background-color: #2C2420;
+    border-radius: 9px;
+    border-color: 0.6px solid #CECECE;
+    color: #FFFFFF;
+    height: 60px;
+}
+.form-button {
+    color: #FFFFFF;
+}
